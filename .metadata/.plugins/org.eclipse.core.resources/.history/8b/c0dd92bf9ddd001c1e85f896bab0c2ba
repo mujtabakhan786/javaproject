@@ -1,0 +1,14 @@
+package com.daoimpl;
+
+import com.dao.Dao;
+import com.pojo.Student1;
+
+public class DaoImpl implements Dao{
+
+	public void getValue(Student1 s) {
+		System.out.println(s.getAddress());
+		System.out.println(s.getId());
+		System.out.println(s.getName());
+	}
+
+}
