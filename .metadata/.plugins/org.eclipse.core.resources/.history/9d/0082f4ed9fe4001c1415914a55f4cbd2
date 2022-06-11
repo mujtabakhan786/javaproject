@@ -1,0 +1,7 @@
+package com.springcore.spel;
+//el means Expression language
+//sp means spring
+
+public class Test {
+
+}

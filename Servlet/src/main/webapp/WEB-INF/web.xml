@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+
+
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>mm</servlet-name>
+		<servlet-class>com.user.Servlet1</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mm</servlet-name>
+		<url-pattern>/zzz</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>nnn</servlet-name>
+		<servlet-class>com.user.Servlet3</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>nnn</servlet-name>
+		<url-pattern>/aa</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>Register21</servlet-name>
+		<servlet-class>com.user.Register2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Register21</servlet-name>
+		<url-pattern>/ccc</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>h</servlet-name>
+		<servlet-class>com.servel.Servlet1</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>h</servlet-name>
+		<url-pattern>/myapp</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>he</servlet-name>
+		<servlet-class>com.servel.Servlet2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>he</servlet-name>
+		<url-pattern>/servlet2</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>demo1</servlet-name>
+		<servlet-class>com.att.DemoServlet1</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>demo2</servlet-name>
+		<servlet-class>com.att.DemoServlet2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>demo1</servlet-name>
+		<url-pattern>/servlet1</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>demo2</servlet-name>
+		<url-pattern>/khan</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>first</servlet-name>
+		<servlet-class>com.servel.Second</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>first</servlet-name>
+		<url-pattern>/opo</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>s1</servlet-name>
+		<servlet-class>com.att.s1</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>s2</servlet-name>
+		<servlet-class>com.att.s2</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>s1</servlet-name>
+		<url-pattern>/s1</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>s2</servlet-name>
+		<url-pattern>/s2</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>f</servlet-name>
+		<servlet-class>com.servel.FirstServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>f</servlet-name>
+		<url-pattern>/web</url-pattern>
+
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>second</servlet-name>
+		<servlet-class>com.servel.SecondServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>second</servlet-name>
+		<url-pattern>/se</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>third</servlet-name>
+		<servlet-class>com.servel.HttpServletExample</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>third</servlet-name>
+		<url-pattern>/map</url-pattern>
+
+	</servlet-mapping>
+
+
+
+
+	<servlet>
+		<servlet-name>register</servlet-name>
+		<servlet-class>com.servel.RegisterServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>register</servlet-name>
+		<url-pattern>/RegisterServlet</url-pattern>
+
+
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>se</servlet-name>
+		<servlet-class>com.servel.RegisterServlet1</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>se</servlet-name>
+		<url-pattern>/Register</url-pattern>
+
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>success</servlet-name>
+		<servlet-class>com.servel.SuccessServlet</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>success</servlet-name>
+		<url-pattern>/success</url-pattern>
+
+
+	</servlet-mapping>
+
+
+
+	<display-name>Servlet</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+	</welcome-file-list>
+
+
+
+
+
+</web-app>
