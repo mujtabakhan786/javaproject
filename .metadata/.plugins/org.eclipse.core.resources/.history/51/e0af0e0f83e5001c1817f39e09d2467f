@@ -1,9 +1,0 @@
-package com.spring.jdbc.dao;
-
-public class StudentDaoImp implements StudentDao{
-
-	public int insert() {
-		return 0;
-	}
-
-}

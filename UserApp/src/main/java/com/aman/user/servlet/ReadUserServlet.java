@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -17,14 +18,17 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class CreateUserServlet
  */
-@WebServlet("/fetch")
+//@WebServlet("/fetch")
 public class ReadUserServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private Connection con;
-public void init() {
+public void init(ServletConfig config) {
 	try {
+		System.out.println(config.getClass().getName());
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","root");
+		//con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","root");
+		con=DriverManager.getConnection(config.getInitParameter("dbUrl"),config.getInitParameter("dbUser"),
+				config.getInitParameter("dbPassword"));
 		
 	} catch (SQLException e) {
 		e.printStackTrace();

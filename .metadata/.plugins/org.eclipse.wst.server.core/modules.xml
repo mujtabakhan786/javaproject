@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:Register1" serverId="apache-tomcat-9.0.55 at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:HoweWork" serverId="apache-tomcat-9.0.55 at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:Servlet" serverId="apache-tomcat-9.0.55 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:AddModule" serverId="apache-tomcat-9.0.55 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:JspPractice" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:JSTLExample" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:UserApp1" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:PreparedStatement" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:HoweWork" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:Servlet" serverId="apache-tomcat-9.0.55 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:ServeltBasic" serverId="apache-tomcat-9.0.55 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Register" serverId="apache-tomcat-9.0.55 at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:JSTLExample" serverId="apache-tomcat-9.0.55 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:CRUD_SERVLET_JSP" serverId="apache-tomcat-9.0.55 at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:FeeStucture" serverId="apache-tomcat-9.0.55 at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:UserApp" serverId="apache-tomcat-9.0.55 at localhost"/>
-  <module moduleId="org.eclipse.jst.jee.server:UserApp1" serverId="apache-tomcat-9.0.55 at localhost"/>
 </modules>

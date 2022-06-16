@@ -3,10 +3,10 @@ C:\Users\Mujtaba khan\OneDrive\Documents\.metadata\.plugins\org.eclipse.jst.jsp.
 \JSTLExample\src\main\java
 C:\Users\Mujtaba khan\OneDrive\Documents\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1936541732.index
 \JspPractice\src\main\java
-C:\Users\Mujtaba khan\OneDrive\Documents\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\739007043.index
-\JspPractice\src\main\java
 C:\Users\Mujtaba khan\OneDrive\Documents\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3171113527.index
 \Register1\src\main\java
+C:\Users\Mujtaba khan\OneDrive\Documents\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\739007043.index
+\JspPractice\src\main\java
 C:\Users\Mujtaba khan\OneDrive\Documents\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1267991582.index
 \CRUD_SERVLET_JSP\src\main\java
 C:\Users\Mujtaba khan\OneDrive\Documents\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2750302286.index
@@ -17,5 +17,7 @@ C:\Users\Mujtaba khan\OneDrive\Documents\.metadata\.plugins\org.eclipse.jst.jsp.
 \CrudJspServlet\src\main\java
 C:\Users\Mujtaba khan\OneDrive\Documents\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\926656542.index
 \AddModule\src\main\java
+C:\Users\Mujtaba khan\OneDrive\Documents\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1855610713.index
+\FeeStucture\src\main\java
 C:\Users\Mujtaba khan\OneDrive\Documents\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4173692451.index
 \Register1\src\main\java
